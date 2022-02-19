@@ -1,0 +1,24 @@
+nav {
+  font-size: 28px;
+  position: fixed;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav .active {
+  font-weight: bold;
+  color: #d42020;
+}
